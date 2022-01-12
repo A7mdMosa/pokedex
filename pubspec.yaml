@@ -1,0 +1,63 @@
+name: pokedex
+description: A Nice Pokemon App.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  cupertino_icons: ^1.0.2
+  flutter_screenutil: ^5.0.2
+  flutter_svg: ^1.0.0
+  tab_indicator_styler: ^2.0.0
+  http: ^0.13.4
+  bloc: ^8.0.2
+  flutter_bloc: ^8.0.1
+  equatable: ^2.0.3
+  shared_preferences: ^2.0.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  fonts:
+    - family: NotoSans
+      fonts:
+        - asset: assets/fonts/NotoSans-Regular.ttf
+        - asset: assets/fonts/NotoSans-Bold.ttf
+          weight: 700
+          
+  
+  
+  
+  
+  
+  
+  
+  
